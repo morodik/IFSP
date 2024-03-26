@@ -1,0 +1,72 @@
+#rectangle36 {
+    position: absolute;
+    width: 455px;
+    height: 506px;
+    left: 492px;
+    top: 128px;
+
+    background: #121212;
+    border-radius: 44px;
+}
+#regtxt {
+    font-size: 25px;
+    text-align: center;
+}
+#logintxt {
+    font-size: 20px;
+    margin-left: 77px;
+}
+#login {
+    box-sizing: border-box;
+    position: absolute;
+    width: 306px;
+    height: 43px;
+    left: 77px;
+    top: 106px;
+    background: #000000;
+    border-radius: 44px;
+}
+#passtxt {
+    font-size: 20px;
+    margin-left: 77px;
+    margin-top: 68px;
+}
+#pass {
+    box-sizing: border-box;
+    position: absolute;
+    width: 306px;
+    height: 43px;
+    left: 77px;
+    top: 206px;
+    background: #000000;
+    border-radius: 44px;
+}
+#rpasstxt {
+    font-size: 20px;
+    margin-left: 77px;
+    margin-top: 74px;
+}
+#rpass {
+    box-sizing: border-box;
+    position: absolute;
+    width: 306px;
+    height: 43px;
+    left: 77px;
+    top: 306px;
+    background: #000000;
+    border-radius: 44px;
+}
+#reg {
+    position: absolute;
+    width: 230px;
+    height: 38px;
+    left: 115px;
+    top: 390px;
+    background: #805ED2;
+    border-radius: 44px;
+    font-size: large;
+    color: white;
+    font-weight: 700;
+    border-style: none;
+    font-size: 18px;
+}

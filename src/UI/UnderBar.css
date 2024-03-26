@@ -1,0 +1,14 @@
+#bar {
+    position: absolute;
+    width: 1440px;
+    height: 79px;
+    left: 0px;
+    top: 1400px;
+    background: linear-gradient(180deg, #1F163F 0%, #0C0818 100%);
+}
+a{
+    color: rgb(108, 108, 108);
+    font-size: 13px;
+    margin-left: 40px;   
+
+}

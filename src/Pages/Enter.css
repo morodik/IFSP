@@ -1,0 +1,105 @@
+.susa {
+    width: 1440px;
+    height: 900px;
+    background-size: cover;
+    background-image: url('../FON/fon1.jpg') ;
+    background-color: rgba( 0,0,0, 0.5);
+    background-attachment: fixed;
+}
+.rectangle36 {
+    display: inline-block;
+    position: absolute;
+    width: 455px;
+    height: 380px;
+    left: 492px;
+    top: 128px;
+    display: inline-block;
+    background-color: #121212;
+    border-radius: 44px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.back {
+    text-decoration: none;
+    top: 25px;
+}
+h2 {
+    color: white;
+    font-size: 30px;
+}
+.txt{
+    left: 193px;
+    top: 25px;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+
+}
+.email{
+    box-sizing: border-box;
+    position: absolute;
+    width: 306px;
+    height: 51px;
+    left: 75px;
+    top: 100px;
+    background: #000000;
+    border-radius: 44px;
+    border-style: solid;
+    border-color: rgba(128, 94, 210, 1);
+    border-top-width: 0.5px;
+    border-bottom-width: 1.5px;
+    border-left-width: 1.5px;
+    border-right-width: 1.5px;
+}
+.pass{
+    box-sizing: border-box;
+    position: absolute;
+    width: 306px;
+    height: 51px;
+    left: 75px;
+    top: 175px;
+    background: #000000;
+    border-radius: 44px;
+    border-style: solid;
+    border-color: rgba(128, 94, 210, 1);
+    border-top-width: 0.5px;
+    border-bottom-width: 1.5px;
+    border-left-width: 1.5px;
+    border-right-width: 1.5px;
+}
+.subm {
+    position: absolute;
+    width: 106px;
+    height: 38px;
+    left: 180px;
+    top: 250px;
+    background: #805ED2;
+    border-radius: 44px;
+    border-style: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+.subm:hover {
+    position: absolute;
+    width: 106px;
+    height: 38px;
+    left: 180px;
+    top: 250px;
+    background: #805ED2;
+    border-radius: 44px;
+    border-style: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    transition: 0.5s;
+}
+.r {
+    cursor: pointer;
+    color: gray;
+    font-weight: 700;
+}
+.reg {
+    top: 295px;
+    left: 146px;
+}

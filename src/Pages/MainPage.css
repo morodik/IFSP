@@ -1,0 +1,88 @@
+#fon {
+    background-image: url('../FON/fon1.jpg ');
+    background-size: cover; /* Растягивать изображение, чтобы оно покрыло всю страницу */
+    background-repeat: no-repeat; /* Не повторять изображение */
+    background-attachment: fixed;
+    width: 1440px;
+    height: 1440px;
+    overflow-y: hidden;
+    
+}
+#container {
+position: absolute;
+width: 754.36px;
+height: 253px;
+left: 343px;
+top: 152px;
+}
+
+#rectangle_15{
+    position: absolute;
+    width: 224.14px;
+    height: 252px;
+    left: 343px;
+    top: 153px;
+    background: rgba(18, 18, 18, 0.9);
+    border-radius: 22px;
+    border-style: none;
+
+}
+#rectangle_15:hover{
+    background-color: rgb(22, 22, 22);
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    transition: 0.5s;
+}
+#rectangle_16 {
+    position: absolute;
+    width: 224.11px;
+    height: 252px;
+    left: 608.14px;
+    top: 152px;
+    position: absolute;
+    width: 224.11px;
+    height: 252px;
+    background: rgba(18, 18, 18, 0.9);
+    border-radius: 22px;
+    border-style: none;
+}
+#rectangle_16:hover{
+    background-color: rgb(22, 22, 22);
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    transition: 0.5s;
+}
+#rectangle_17 {
+    position: absolute;
+    width: 224.36px;
+    height: 252px;
+    left: 873px;
+    top: 153px;
+
+    position: absolute;
+    width: 224.11px;
+    height: 252px;
+    background: rgba(18, 18, 18, 0.9);
+    border-radius: 22px;
+    border-style: none;
+}
+#rectangle_17:hover{
+    background-color: rgb(22, 22, 22);
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    transition: 0.5s;
+}
+h1 {
+    position: absolute;
+    color: white;
+    top: 0px;
+    text-align: left;
+}
+
+#afisha {
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    font-size: 50px;
+}

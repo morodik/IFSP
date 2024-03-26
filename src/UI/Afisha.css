@@ -1,0 +1,84 @@
+#afisha {
+    text-align: center;
+}
+#left {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 10.99px;
+    top: 370px;
+    cursor: pointer;
+    background: rgba(18, 18, 18, 0.8);
+    border-radius: 90px;
+    transform: rotate(-178.93deg);
+    border-style: none;
+}
+
+
+
+#right {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1000.99px;
+    top: 370px;
+    cursor: pointer;
+    background: rgba(18, 18, 18, 0.8);
+    border-radius: 90px;
+    transform: rotate(-178.93deg);
+    border-style: none;
+}
+
+.card {
+    position: absolute;
+    width: 883px;
+    height: 492px;
+    left: 93.45px;
+    top: 170px;
+
+    background: #212121;
+    border-radius: 48px;
+
+}
+
+#strel {
+
+    position: absolute;
+    width: 24.04px;
+    height: 0px;
+    left: 20px;
+    top: 18px;
+
+    border: 1px solid #FFFFFF;
+    transform: rotate(-138.51deg);
+
+}
+
+#strel2 {
+    position: absolute;
+    width: 23.9px;
+    height: 0px;
+    left: 21.7px;
+    top: 35px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(129.25deg);
+}
+
+#strel_2 {
+    position: absolute;
+    width: 24.04px;
+    height: 0px;
+    left: 10px;
+    top: 40px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(45.24deg);
+}
+#strel2_2 {
+    position: absolute;
+    width: 23.9px;
+    height: 0px;
+    left: 10px;
+    top: 22px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(-47deg);
+}

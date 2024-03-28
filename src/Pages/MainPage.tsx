@@ -8,24 +8,7 @@ import React from 'react';
 
 function MainPage() {
     
-    window.addEventListener('scroll', function () {
-        let scrollPos = window.scrollY;
-        console.log(scrollPos);
-        if (scrollPos >= 505) {
-            console.log("stop");
-            window.scrollTo(0, 505); // Остановка прокрутки на 505 пикселях
-        }
-    });
-    
-    window.addEventListener('wheel', function(event) {
-        let scrollPos = window.scrollY;
-        let maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-        
-        if (scrollPos >= 505 && event.deltaY > 0 && scrollPos < maxScroll) {
-            // Разрешаем прокрутку вниз, если пользователь пытается прокрутить вниз после остановки и не достигнут конец страницы
-            event.stopPropagation();
-        }
-    });
+   
     return (
         <div>
             <NavBar /> 

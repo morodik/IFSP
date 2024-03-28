@@ -1,4 +1,4 @@
-.susa {
+#susa {
     width: 1440px;
     height: 900px;
     background-size: cover;
@@ -6,7 +6,7 @@
     background-color: rgba( 0,0,0, 0.5);
     background-attachment: fixed;
 }
-.rectangle36 {
+#rectangle_36 {
     display: inline-block;
     position: absolute;
     width: 455px;
@@ -17,64 +17,42 @@
     background-color: #121212;
     border-radius: 44px;
 }
-a{
-    text-decoration: none;
-    color: white;
+#entertxt {
+    position: absolute;
+    width: 86px;
+    height: 38px;
+    left: 192px;
+    top: 0px;
 }
-.back {
-    text-decoration: none;
-    top: 25px;
-}
-h2 {
-    color: white;
-    font-size: 30px;
-}
-.txt{
-    left: 193px;
-    top: 25px;
-    font-size: 28px;
-    font-weight: 700;
-    color: white;
+.txth2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.02em;
 
+    color: #FFFFFF;
 }
-.email{
+#loginInp {
     box-sizing: border-box;
     position: absolute;
     width: 306px;
     height: 51px;
-    left: 75px;
-    top: 100px;
-    background: #000000;
-    border-radius: 44px;
-    border-style: solid;
-    border-color: rgba(128, 94, 210, 1);
-    border-top-width: 0.5px;
-    border-bottom-width: 1.5px;
-    border-left-width: 1.5px;
-    border-right-width: 1.5px;
 }
-.pass{
+#passInp {
     box-sizing: border-box;
     position: absolute;
     width: 306px;
     height: 51px;
-    left: 75px;
-    top: 175px;
-    background: #000000;
-    border-radius: 44px;
-    border-style: solid;
-    border-color: rgba(128, 94, 210, 1);
-    border-top-width: 0.5px;
-    border-bottom-width: 1.5px;
-    border-left-width: 1.5px;
-    border-right-width: 1.5px;
 }
 .subm {
     position: absolute;
     width: 106px;
     height: 38px;
     left: 180px;
-    top: 250px;
+    top: 240px;
     background: #805ED2;
     border-radius: 44px;
     border-style: none;
@@ -82,24 +60,17 @@ h2 {
     color: white;
     font-weight: 700;
 }
-.subm:hover {
+.regTo {
     position: absolute;
-    width: 106px;
-    height: 38px;
-    left: 180px;
-    top: 250px;
-    background: #805ED2;
-    border-radius: 44px;
-    border-style: none;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
-    transition: 0.5s;
-}
-.r {
-    cursor: pointer;
-    color: gray;
-    font-weight: 700;
-}
-.reg {
-    top: 295px;
-    left: 146px;
+    width: 116px;
+    height: 24px;
+    left: 135px;
+    top: 288px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3F3F3F;
+    text-decoration: none;
 }

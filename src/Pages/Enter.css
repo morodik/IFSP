@@ -86,9 +86,9 @@
     border-style: solid;
     border-color: rgba(128, 94, 210, 1);
     border-top-width: 0.5px;
-    border-bottom-width: 1.5px;
-    border-left-width: 1.5px;
-    border-right-width: 1.5px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
 }
 .input {
     box-sizing: border-box;

@@ -35,8 +35,8 @@ function Enter() {
                     </div>
                     <div id='passInp'>
                         <input onBlur={e => blurHandler(e)} name="password" id="inputPass" type="password" placeholder="Пароль"></input>
+                        {((dirtyEmail && emailError) || (dirtyPassword && passwordError)) && <div style={{color: 'rgba(210, 94, 94, 1)'}}>{passwordError}</div>}
                     </div>
-                    {((dirtyEmail && emailError) || (dirtyPassword && passwordError)) && <div style={{color: 'rgba(210, 94, 94, 1)'}}>{passwordError}</div>}
                     <button className='subm'type='submit'>Войти</button>
                     <Link to='/registration' className='regTo'>Регистрация</Link>
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Afisha.css';
+import RandomMovie from '../API/RandomMovie';
 
 function Afisha() {
     
@@ -11,6 +12,7 @@ function Afisha() {
             </button>
 
             <div className='card'>
+                <RandomMovie />
             </div>
 
             <button id='right'>

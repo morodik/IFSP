@@ -74,3 +74,35 @@
     color: #3F3F3F;
     text-decoration: none;
 }
+#inputPass {
+    box-sizing: border-box;
+    position: absolute;
+    width: 306px;
+    height: 51px;
+    left: 84px;
+    top: 165px;
+    background: #000000;
+    border-radius: 44px;
+    border-style: solid;
+    border-color: rgba(128, 94, 210, 1);
+    border-top-width: 0.5px;
+    border-bottom-width: 1.5px;
+    border-left-width: 1.5px;
+    border-right-width: 1.5px;
+}
+.input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 306px;
+    height: 51px;
+    left: 84px;
+    top: 95px;
+    background: #000000;
+    border-radius: 44px;
+    border-style: solid;
+    border-color: rgba(128, 94, 210, 1);
+    border-top-width: 0.5px;
+    border-bottom-width: 1.5px;
+    border-left-width: 1.5px;
+    border-right-width: 1.5px;
+}

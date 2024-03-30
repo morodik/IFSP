@@ -8,13 +8,24 @@
     background: #121212;
     border-radius: 44px;
 }
+.susa {
+    width: 1440px;
+    height: 900px;
+    background-size: cover;
+    background-image: url('../FON/fon1.jpg') ;
+    background-color: rgba( 0,0,0, 0.5);
+    background-attachment: fixed;
+}
 #regtxt {
     font-size: 25px;
-    text-align: center;
+    color: white;
 }
 #logintxt {
+    position: absolute;
     font-size: 20px;
-    margin-left: 77px;
+    color: white;
+    top: 58px;
+    left: 77px;
 }
 #login {
     box-sizing: border-box;
@@ -27,9 +38,11 @@
     border-radius: 44px;
 }
 #passtxt {
+    position: absolute;
     font-size: 20px;
-    margin-left: 77px;
-    margin-top: 68px;
+    top: 156px;
+    left: 77px;
+    color: white;
 }
 #pass {
     box-sizing: border-box;
@@ -42,9 +55,11 @@
     border-radius: 44px;
 }
 #rpasstxt {
+    position: absolute;
+    color: white;
     font-size: 20px;
-    margin-left: 77px;
-    margin-top: 74px;
+    top: 256px;
+    left: 77px;
 }
 #rpass {
     box-sizing: border-box;

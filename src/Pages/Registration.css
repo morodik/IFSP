@@ -36,6 +36,13 @@
     top: 106px;
     background: #000000;
     border-radius: 44px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgba(128, 94, 210, 1);
+    border-top-width: 0.5px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
 }
 #passtxt {
     position: absolute;
@@ -53,6 +60,12 @@
     top: 206px;
     background: #000000;
     border-radius: 44px;
+    border-style: solid;
+    border-color: rgba(128, 94, 210, 1);
+    border-top-width: 0.5px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
 }
 #rpasstxt {
     position: absolute;
@@ -70,6 +83,12 @@
     top: 306px;
     background: #000000;
     border-radius: 44px;
+    border-style: solid;
+    border-color: rgba(128, 94, 210, 1);
+    border-top-width: 0.5px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
 }
 #reg {
     position: absolute;
@@ -84,4 +103,28 @@
     font-weight: 700;
     border-style: none;
     font-size: 18px;
+}
+ #error_message_email{
+    position: absolute;
+    width: 100%; /* или конкретная ширина, если нужно */
+    top: 148px; /* Расположение над кнопкой, подгоните по необходимости */
+    color: rgba(210, 94, 94, 1); /* Пример цвета текста */
+    font-size: 16px; /* Пример размера шрифта */ 
+    transform: 0.5s;
+}
+#error_message {
+    position: absolute;
+    width: 100%; /* или конкретная ширина, если нужно */
+    top: 248px; /* Расположение над кнопкой, подгоните по необходимости */
+    color: rgba(210, 94, 94, 1); /* Пример цвета текста */
+    font-size: 16px; /* Пример размера шрифта */ 
+    transform: 0.5s;
+}
+#error_message_confirm {
+    position: absolute;
+    width: 100%; /* или конкретная ширина, если нужно */
+    top: 348px; /* Расположение над кнопкой, подгоните по необходимости */
+    color: rgba(210, 94, 94, 1); /* Пример цвета текста */
+    font-size: 16px; /* Пример размера шрифта */ 
+    transform: 0.5s;
 }

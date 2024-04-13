@@ -1,0 +1,23 @@
+#login_inf {
+    position: absolute;
+    width: 340px;
+    height: 78px;
+    left: 49px;
+    top: 71px;
+    background: #3E3E3E;
+    border-radius: 16px;
+}
+#login_txt {
+    position: absolute;
+    width: 60px;
+    height: 18px;
+    left: 20px;
+    top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #939393;
+}

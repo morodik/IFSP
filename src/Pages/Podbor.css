@@ -1,0 +1,30 @@
+#fon_2 {
+    width: 1440px;
+    height: 900px;
+    background-size: cover;
+    background-image: url('../FON/Podbor.png') ;
+    background-color: rgba( 0,0,0, 0.5);
+}
+#choise {
+    position: absolute;
+    width: 191.5px;
+    height: 27px;
+    left: 610px;
+    top: 100px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+#genres {
+    position: absolute;
+    top: 170px;
+    width: 1000px;
+    height: 300px;
+    left: 200px;
+}
+

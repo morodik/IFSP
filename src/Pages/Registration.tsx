@@ -75,7 +75,7 @@ function Registration() {
                         id='login'></input>
                     </div>
                     {((dirtyEmail && emailError)) && <div id='error_message_email' >{emailError}</div>}
-                    <h2 id='passtxt'>Придумайте пароль</h2>
+                    <h2 id='passtxt'>Придумайте пароль:</h2>
                     <div>
                         <input
                             onChange={e => passwordHandler(e)}
@@ -84,7 +84,7 @@ function Registration() {
                             style={{borderColor: dirtyPassword && passwordError ? 'rgba(210, 94, 94, 1)' : 'rgba(128, 94, 210, 1)'}}></input>
                             {((dirtyPassword && passwordError)) && <div id='error_message' >{passwordError}</div>}
                         </div>
-                    <h2 id='rpasstxt'>Повторите пароль</h2>
+                    <h2 id='rpasstxt'>Повторите пароль:</h2>
                     <div>
                     <input
                             value={confirmPassword}

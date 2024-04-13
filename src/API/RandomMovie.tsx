@@ -5,7 +5,6 @@ import {
     SORT_TYPE,
   } from '@openmoviedb/kinopoiskdev_client';
     
-  function RandomMovie() {
 
       const kp = new KinopoiskDev('604B581-WWF46E5-M3N0ZAA-Z49DH70');
     
@@ -47,16 +46,3 @@ import {
       // Если будет ошибка, то выведем ее в консоль
       if (firstRes.error) console.log(firstRes.error, firstRes.message);
   };
-    
-    return (
-        <div>
-            {RandomMovie && (
-          <div id='MovieCard'>
-            <h2>{RandomMovie.name}</h2>
-          </div>
-      )}
-        </div>
-    )
-  }
-
-  export default RandomMovie;

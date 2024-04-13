@@ -1,0 +1,39 @@
+#delete_inf {
+    position: absolute;
+    width: 340px;
+    height: 78px;
+    right: 49px;
+    top: 191px;
+    background: #3E3E3E;
+    border-radius: 16px;
+}
+#delete_txt {
+    position: absolute;
+    width: 260px;
+    height: 18px;
+    left: 20px;
+    top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #939393;
+}
+#delete_link {
+    position: absolute;
+    width: 250px;
+    height: 18px;
+    left: 0px;
+    top: 40px;
+}
+#link_del {
+    font-style: normal;
+    font-weight: 600;
+    width: 220px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 0px;
+}

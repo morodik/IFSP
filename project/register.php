@@ -5,7 +5,6 @@ $login = $_POST['login'];
 $pass = $_POST['pass'];
 $repeatpass = $_POST['repeatpass'];
 $email = $_POST['email'];
-
 if (empty($login) || empty($pass) || empty($repeatpass) || empty($email)) {
     echo "заполните все";
 }
